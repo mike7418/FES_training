@@ -1,0 +1,44 @@
+﻿body
+{
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 33.33%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .card {
+        width: 50%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+HTML
+CSS
