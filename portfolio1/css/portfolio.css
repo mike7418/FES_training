@@ -138,7 +138,7 @@ nav {
 /* ABOUT ME */
 
 #about-me {
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     flex-direction: column;
 }
@@ -184,9 +184,9 @@ nav {
 .about-me__img {
     width: 100%;
     /* Improving my own picture */
-    transform: scale(3);
-    padding-top: 24px;
-    padding-left: 24px;
+    transform: scale(2.1);
+    padding-top: 28px;
+    #padding-left: 6px;
 }
 
 .about-me__info--title {
